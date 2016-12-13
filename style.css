@@ -3,7 +3,7 @@
 */
 p{ line-height: 1em; }
 h1, h2, h3, h4{
-    color: orange;
+    color: black;
 	font-weight: normal;
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
@@ -20,7 +20,7 @@ a{
 /* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
 
 body{
-    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: darkgrey;
 }
 /* you can put your code all in one line like above */
 #page{ margin: 20px; }
@@ -46,14 +46,14 @@ body{
 		}
 			#nav ul li a{
 				padding: 20px;
-				background: orange;
+				background: lightblue;
 				color: white;
 			}
 			#nav ul li a:hover{
-				background-color: #ffb424;
+				background-color:black;
 				box-shadow: 0px 1px 1px #666;
 			}
-			#nav ul li a:active{ background-color: #ff8f00; }
+			#nav ul li a:active{ background-color: black; }
 
 #content{
 	margin: 30px 0;
